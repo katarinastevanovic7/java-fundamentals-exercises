@@ -1,0 +1,3 @@
+a) Dezimal: (110110110110), Hexadezimal: (DB6)
+b) Dezimal: (52), Hexadezimal: (34)
+c) Dezimal: (127), Binär: (01111111)
