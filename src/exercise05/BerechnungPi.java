@@ -4,7 +4,7 @@ public class BerechnungPi {
 
     public static void main(String[] args) {
 
-                int k = 10;
+                int k = 1000;
                 double pi = 0;
                 double nenner = 1;
                 for (int i = 0; i < k; i++) {
