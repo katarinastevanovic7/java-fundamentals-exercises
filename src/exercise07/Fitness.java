@@ -5,6 +5,7 @@ public class Fitness {
         return gewicht / (groesse * groesse);
     }
 
+
     public static void main(String[] args) {
         System.out.printf("Katarina: %.2f%n",bmi(50, 1.65));
         System.out.printf("Alina: %.2f%n",bmi(60,167));

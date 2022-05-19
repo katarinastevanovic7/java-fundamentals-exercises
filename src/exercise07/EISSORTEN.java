@@ -5,5 +5,4 @@ package exercise07;
             VANILLE, ERDBEER, SCHOKOLADE, HASELNUSS, KIRSCHE, PISTAZIE
 
 
-
         }

@@ -10,7 +10,6 @@ public class ReadingFiles1 {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 
-
         System.out.print("Bitte Postleitzahl eingeben: ");
         int inputPlz = scanner.nextInt();
 

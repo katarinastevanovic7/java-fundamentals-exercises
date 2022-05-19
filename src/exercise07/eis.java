@@ -10,7 +10,6 @@ import java.util.Scanner;
             EISSORTEN eis[];
 
 
-
             Scanner scanner = new Scanner(System.in);
             System.out.println("Wie viele Kugeln wollen sie ?: ");
             int anzahl = scanner.nextInt();
@@ -18,7 +17,6 @@ import java.util.Scanner;
             //Läge des Arrays bestimmen
             eis = new EISSORTEN[anzahl];
             System.out.println(eis.length);
-
 
 
             System.out.println("Wählen sie einer der unteren Eissorten aus\n-------------------------------------------- ");
