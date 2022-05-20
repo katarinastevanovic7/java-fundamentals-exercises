@@ -39,17 +39,17 @@ import java.util.Scanner;
 
                 if (sortenWahl.equals(EISSORTEN.KIRSCHE)) {
                     double preis = 1.50;
-                    //System.out.println(eis[i] + "EIS kostet " + preis);
+                    System.out.println(eis[i] + "EIS kostet " + preis);
                     summe += preis;
 
                 } else if (sortenWahl.equals(EISSORTEN.VANILLE)) {
                     double preis = 1.50;
-                    // System.out.println(eis[i] + "EIS kostet " + preis);
+                     System.out.println(eis[i] + "EIS kostet " + preis);
                     summe += preis;
 
                 } else {
                     double preis = 1.00;
-                    //System.out.println(eis[i] + "EIS kostet " + preis);
+                    System.out.println(eis[i] + "EIS kostet " + preis);
                     summe += preis;
 
 
