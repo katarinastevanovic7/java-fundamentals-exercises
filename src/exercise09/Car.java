@@ -11,20 +11,20 @@ public class Car {
     String driverName;
     enum Color {BLUE,GREEN,YELLOW,BLACK,RED,SILVER}
     enum Manufacturer {AUDI,BMW,VOLKSWAGEN,PORSCHE,FERRARI,TOYOTA,HONDA}
-    //b)
+
     public Car(){
         this.color = Color.SILVER;
         this.manufacturer = Manufacturer.VOLKSWAGEN;
         this.maxSpeedKmh = 150;
     }
-    //c)
+
     public Car(Color color, Manufacturer manufacturer, int maxSpeedKmh, String driverName){
         this.color=color;
         this.manufacturer=manufacturer;
         this.maxSpeedKmh=maxSpeedKmh;
         this.driverName=driverName;
     }
-    //d)
+
     public String toString(){
         return "Car{" + "color:" + color + ", maxSpeedKmh: " + maxSpeedKmh + ", manufacturer: " + manufacturer + "}";
     }

@@ -44,6 +44,7 @@ public class CarRace {
         System.out.println("Gefahrene Zeiten: ");
         for (int i = contestantes.length - 1; i >= 0; i--) {
             System.out.println(contestantes[i].driverName + " - " + contestantes[i].manufacturer + " - " + (int) lapTimes[i] + "s");
+
         }
 
     }
