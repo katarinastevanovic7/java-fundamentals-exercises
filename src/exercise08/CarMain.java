@@ -2,7 +2,7 @@ package exercise08;
 
 public class CarMain {
     public static void main(String[] args){
-        Car aCar = new Car();
+        Car1 aCar = new Car1();
         
         System.out.println("Color: " + aCar.color + " Manufacturer: + " +
                aCar.manufacturer + " maxSpeedKmh: " + aCar.maxSpeedKmh );
@@ -11,10 +11,10 @@ public class CarMain {
         System.out.println(aCar.toString());
 
 
-        Car Porsche = new Car(Color.BLACK, Manufacturer.PORSCHE, 400 );
-        Car Volkswagen = new Car(Color.SILVER, Manufacturer.VOLKSWAGEN, 120 );
-        Car Ferrari = new Car(Color.RED, Manufacturer.FERRARI, 500 );
-        Car Toyota = new Car(Color.BLUE, Manufacturer.TOYOTA, 70);
+        Car1 Porsche = new Car1(Color.BLACK, Manufacturer.PORSCHE, 400 );
+        Car1 Volkswagen = new Car1(Color.SILVER, Manufacturer.VOLKSWAGEN, 120 );
+        Car1 Ferrari = new Car1(Color.RED, Manufacturer.FERRARI, 500 );
+        Car1 Toyota = new Car1(Color.BLUE, Manufacturer.TOYOTA, 70);
 
         System.out.println(Porsche.toString());
         System.out.println(Volkswagen.toString());
