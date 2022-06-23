@@ -9,34 +9,36 @@ public class Car {
     public int maxSpeedKmh;
     public Manufacturer manufacturer;
     String driverName;
-    enum Color {BLUE,GREEN,YELLOW,BLACK,RED,SILVER}
-    enum Manufacturer {AUDI,BMW,VOLKSWAGEN,PORSCHE,FERRARI,TOYOTA,HONDA}
 
-    public Car(){
+    enum Color {BLUE, GREEN, YELLOW, BLACK, RED, SILVER}
+
+    enum Manufacturer {AUDI, BMW, VOLKSWAGEN, PORSCHE, FERRARI, TOYOTA, HONDA}
+
+    public Car() {
         this.color = Color.SILVER;
         this.manufacturer = Manufacturer.VOLKSWAGEN;
         this.maxSpeedKmh = 150;
     }
 
-    public Car(Color color, Manufacturer manufacturer, int maxSpeedKmh, String driverName){
-        this.color=color;
-        this.manufacturer=manufacturer;
-        this.maxSpeedKmh=maxSpeedKmh;
-        this.driverName=driverName;
+    public Car(Color color, Manufacturer manufacturer, int maxSpeedKmh, String driverName) {
+        this.color = color;
+        this.manufacturer = manufacturer;
+        this.maxSpeedKmh = maxSpeedKmh;
+        this.driverName = driverName;
     }
 
-    public String toString(){
+    public String toString() {
         return "Car{" + "color:" + color + ", maxSpeedKmh: " + maxSpeedKmh + ", manufacturer: " + manufacturer + "}";
     }
 
-    public void repaint(Color color){
+    public void repaint(Color color) {
         this.color = color;
     }
 
-    public boolean isFasterThan(int maxSpeedKmh){
-        if (this.maxSpeedKmh > maxSpeedKmh){
+    public boolean isFasterThan(int maxSpeedKmh) {
+        if (this.maxSpeedKmh > maxSpeedKmh) {
             return true;
-        }else{
+        } else {
             return false;
         }
 

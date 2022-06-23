@@ -6,7 +6,8 @@ import exercise08.Manufacturer;
 
 public class RaceMain {
 
-
+        //5 Car Objekte
+        // Car Array contestantes
     public static void main(String[] args) {
         Car[] contestantes = new Car[5];
         contestantes[0] = new Car(Car.Color.BLACK, Car.Manufacturer.AUDI,180 , "Katarina");
@@ -19,11 +20,11 @@ public class RaceMain {
 
 
 
-
+        //race Methode und printTimes Methode um gefahrene Zeiten auszugeben
         CarRace race = new CarRace(500, contestantes);
         race.race();
         race.printTimes();
-        System.out.println("Gewinner: "+ race.getWinner());
-        System.out.println("Verlierer: "+race.getLoser());
+        System.out.println("Gewinner: "+ race.getWinner().driverName);
+        System.out.println("Verlierer: "+race.getLoser().driverName);
     }
 }
