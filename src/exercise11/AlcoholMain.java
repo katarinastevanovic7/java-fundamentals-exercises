@@ -23,6 +23,12 @@ public class AlcoholMain {
         System.out.println(yellowRunner.getWeigth() + " ml");
         System.out.println(yellowRunner.constainsAlkohol());
 
+        System.out.println();
+        Cocktail swimmingPool = new SwimmingPool();
+        System.out.println(swimmingPool.getName());
+        System.out.printf("%.2f%n", swimmingPool.getPrice());
+        System.out.println(swimmingPool.getWeigth() + " ml");
+        System.out.println(swimmingPool.constainsAlkohol());
 
         System.out.println();
         Cocktail caipirinha = new Caipirinha();
