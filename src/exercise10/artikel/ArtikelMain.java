@@ -10,7 +10,7 @@ public class ArtikelMain {
             sum += auftraege[i].getMenge() * auftraege[i].getArtikel().getPreis();
 
         }
-        return sum ;
+        return sum;
     }
 
 
