@@ -3,20 +3,16 @@ package exercise10.artikel;
 public class ArtikelMain {
     double gesamwert;
 
-    public static double getGesamtwert(Auftrag[] auftraege) {
-        double gesamtwert = 0;
-        for (Auftrag auftrag : auftraege) {
-            Artikel artikel = auftrag.getArtikel();
-            double preis = artikel.getPreis();
-            int menge = auftrag.getMenge();
+    public static double getGesamtwert(Auftrag... auftraege) { // Übungsblatt 12 [] in ...
 
-            double auftragPreis = menge * preis;
-            gesamtwert = +auftragPreis;
+        double sum = 0;
+        for (int i = 0; i < auftraege.length; i++) {
+            sum += auftraege[i].getMenge() * auftraege[i].getArtikel().getPreis();
+
         }
-        return gesamtwert;
-
-
+        return sum ;
     }
+
 
     public static void main(String[] args) {
         Artikel kaugummi = new Artikel();

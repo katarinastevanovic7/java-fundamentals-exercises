@@ -1,10 +1,10 @@
 package exercise11;
 
-abstract class Cocktail {
+public abstract class Cocktail {
     private String name;
     private double price;
     private double weigth;
-    private boolean hasAlcohol;
+    private boolean hasAlcohol = false;
 
     Cocktail(String name) {
         this.name = name;
